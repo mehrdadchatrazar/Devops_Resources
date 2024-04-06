@@ -35,6 +35,8 @@ minikube start --registry-mirror="https://docker.arvancloud.ir" --insecure-regis
 
 #
 ### Interact with your cluster
+
+If you already have kubectl installed, you can now use it to access your shiny new cluster:
 ```
 kubectl get po -A
 ```
