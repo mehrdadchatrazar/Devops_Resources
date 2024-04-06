@@ -16,8 +16,10 @@ minikube is local Kubernetes, focusing on making it easy to learn and develop fo
 
 To install the latest minikube stable release on x86-64 Linux using Debian package:
 
-- curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
-- sudo dpkg -i minikube_latest_amd64.deb
+``` 
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+sudo dpkg -i minikube_latest_amd64.deb
+```
 
 
 #
