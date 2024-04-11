@@ -23,6 +23,14 @@ sudo dpkg -i minikube_latest_amd64.deb
 
 
 #
+### Proxy
+If a HTTP proxy is required to access the internet, you may need to pass the proxy connection information to both minikube and Docker using environment variables:
+
+- export HTTP_PROXY= The URL to your HTTP proxy
+- export HTTPS_PROXY= The URL to your HTTP proxy
+- export NO_PROXY=localhost,127.0.0.1,10.96.0.0/12,192.168.59.0/24,192.168.49.0/24,192.168.39.0/24
+
+#
 ### Start your cluster
 ```
 minikube start
