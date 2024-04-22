@@ -41,3 +41,12 @@ Acquire::http::Proxy "http://yourproxyaddress:proxyport";
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+
+#
+## 3. Manage Docker as a non-root user
+
+### Add your user to the ```docker``` group.
+```
+sudo usermod -aG docker $USER
+```
+Log out and log back in so that your group membership is re-evaluated.
