@@ -57,8 +57,8 @@ This document outlines common `dpkg` commands used for Debian package management
 * **`-l [<package_name_pattern>]`:** List installed packages.
 
     ```bash
-    dpkg --list
-    dpkg --list '*apache*' # List packages with 'apache' in their name
+    dpkg -l
+    dpkg -l '*apache*' # List packages with 'apache' in their name
     ```
 
     This command lists all installed packages. You can use wildcard patterns to filter the results.
