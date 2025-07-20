@@ -54,3 +54,26 @@ You can prefix many motions or actions with a number `N` to repeat them `N` time
 
 ---
 
+## ✏️ Inserting Text
+
+| Key | Action |
+|-----|--------|
+| `i` | Enter insert mode **before the cursor** |
+| `a` | Enter insert mode **after the cursor** |
+| `I` (Shift + i) | Insert at the **start of the line** |
+| `A` (Shift + a) | Append at the **end of the line** |
+| `o` | Open a **new line below** and enter insert mode |
+| `O` (Shift + o) | Open a **new line above** and enter insert mode |
+
+---
+
+## 🔁 Replacing & Changing Text
+
+| Key | Action |
+|-----|--------|
+| `r<char>` | Replace the **character under the cursor** with `<char>` |
+| `cc` | Change (delete) the **entire line** and enter insert mode |
+| `cw` | Change from cursor to the **end of the current word**, then insert |
+| `Ncw` | Change **N words**, then insert (e.g., `3cw` changes 3 words) |
+
+---
